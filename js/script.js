@@ -23,10 +23,12 @@ const displayImage = function (randomImage){
     const imageAddress = randomImage.download_url;
     authorSpan.innerText = author;
     img.src = imageAddress;
-    imgDiv.classList.remove = ("hide");
+    imgDiv.classList.remove("hide");
 };
+
 
 button.addEventListener("click", function() {
     getImage();
-    });
+});
+
 
